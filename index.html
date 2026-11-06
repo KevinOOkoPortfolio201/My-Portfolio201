@@ -1,0 +1,250 @@
+<html>
+<head>
+    <title>My Personal Website</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: #f5f5f5;
+            color: black;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #222;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: green;
+        }
+
+        section {
+            background-color: white;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .profile {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            display: block;
+        }
+
+        hr {
+            border: 1px solid black;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid green;
+        }
+
+        th {
+            background-color: lightblue;
+            padding: 12px;
+        }
+
+        td {
+            padding: 12px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: green;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>MY PERSONAL WEBSITE</h1>
+    <p>Welcome to my personal portfolio</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#experience">Personal Experience</a>
+    <a href="#contacts">Contacts</a>
+    <a href="#hobbies">Hobbies</a>
+</nav>
+
+<!-- HOME PAGE -->
+<section id="home">
+
+    <h2>HOME</h2>
+
+    <img src="leakey.jpg"
+         alt="My Profile Photo"
+         class="profile">
+
+    <hr>
+
+    <h3>About Myself</h3>
+
+    <p>
+        My name is OTIENO LEAKEY. I am a student currently
+        pursuing a course in BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY at KISII UNIVERSITY.
+    </p>
+
+    <p>
+        I come from HOMABAY, SUBA. I am a hardworking,
+        responsible and determined person who enjoys
+        learning new things and acquiring knowledge.
+    </p>
+
+    <p>
+        My educational background has helped me develop
+        important skills and knowledge that will help me
+        in my future career.
+    </p>
+
+    <p>
+        After completing my course, I hope to become
+        successful in my profession, gain experience
+        and contribute positively to society.
+    </p>
+
+</section>
+
+<!-- PERSONAL EXPERIENCE PAGE -->
+<section id="experience">
+
+    <h2>PERSONAL EXPERIENCE</h2>
+
+    <h3>My Curriculum Vitae (CV)</h3>
+
+    <table>
+        <tr>
+            <th>Date</th>
+            <th>Institutions Attended</th>
+            <th>Awards Given</th>
+        </tr>
+
+        <tr>
+            <td>2012 - 2020</td>
+            <td>Primary School</td>
+            <td>Primary Education Certificate</td>
+        </tr>
+
+        <tr>
+            <td>2011 - 2024</td>
+            <td>Secondary School</td>
+            <td>Secondary Education Certificate</td>
+        </tr>
+
+        <tr>
+            <td>2025 - Present</td>
+            <td>College / University</td>
+            <td>Currently Studying</td>
+        </tr>
+    </table>
+
+</section>
+
+<!-- CONTACTS PAGE -->
+<section id="contacts">
+
+    <h2>CONTACTS</h2>
+
+    <p><b>Phone:</b> 0798345714</p>
+
+    <p><b>Email:</b> otienoleacky014@gmail.com</p>
+
+    <p><b>Location:</b> HOMABAY, SUBA</p>
+
+    <a href="mailto:otienoleacky014@gmail.com">Email me</a>
+
+    <hr>
+
+    <h3>Contact Form</h3>
+
+    <form action="mailto:otienoleacky014@gmail.com"
+          method="post"
+          enctype="text/plain">
+
+        <label>Name:</label>
+        <input type="text" name="Name"
+               placeholder="OTIENO LEAKEY" required>
+
+        <label>Email:</label>
+        <input type="email" name="Email"
+               placeholder=otienoleacky014@gmail.com"" required>
+
+        <label>Subject:</label>
+        <input type="text" name="Subject"
+               placeholder="WEB PROGRAMMING (BIT 202)">
+
+        <label>Message:</label>
+        <textarea name="message" rows="5"
+                  placeholder="Thank you for visiting my personal portfolio. I appreciate your interest in learning more about me.I look foward to hearing from you."></textarea>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</section>
+
+<!-- HOBBIES PAGE -->
+<section id="hobbies">
+
+    <h2>HOBBIES</h2>
+
+    <p>My hobbies and interests include:</p>
+
+    <ul>
+        <li>Learning computer skills</li>
+        <li>Reading books</li>
+        <li>Watching educational videos</li>
+        <li>Travelling</li>
+        <li>Playing football</li>
+        <li>Listening to musicSS</li>
+    </ul>
+
+</section>
+
+<footer>
+    <p>Copyright &copy; 2026 My Personal Website</p>
+</footer>
+
+</body>
+</html>
